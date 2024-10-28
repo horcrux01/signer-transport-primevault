@@ -1,12 +1,17 @@
 {
   "name": "@primevault/signer-transport-primevault",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "JavaScript and TypeScript library to communicate with PrimeVault Wallet on the Internet Computer",
   "homepage": "https://github.com/slide-computer/signer-js",
-  "main": "./lib/cjs/index",
-  "module": "./lib/esm/index",
-  "unpkg": "./lib/esm/index",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "unpkg": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "build": "tsc -b && tsc -p tsconfig-cjs.json"
   },
