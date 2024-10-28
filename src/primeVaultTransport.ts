@@ -8,7 +8,7 @@ export class PrimeVaultTransportError extends Error {
     }
 }
 
-class PrimeVaultTransport implements Transport {
+export class PrimeVaultTransport implements Transport {
     async establishChannel(): Promise<Channel> {
         return new PrimeVaultChannel();
     }
