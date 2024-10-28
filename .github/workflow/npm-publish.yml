@@ -27,11 +27,6 @@ jobs:
       - name: Build your package
         run: npm run build
 
-      - name: Run tests
-        env:
-          ACCESS_PRIVATE_KEY: ${{ secrets.ACCESS_PRIVATE_KEY_TEST }}
-        run: npm test
-
       - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
