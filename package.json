@@ -1,6 +1,6 @@
 {
   "name": "@primevault/signer-transport-primevault",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "JavaScript and TypeScript library to communicate with PrimeVault Wallet on the Internet Computer",
   "homepage": "https://github.com/slide-computer/signer-js",
