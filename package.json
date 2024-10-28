@@ -10,6 +10,10 @@
   "scripts": {
     "build": "tsc -b && tsc -p tsconfig-cjs.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horcrux01/signer-transport-primevault"
+  },
   "peerDependencies": {
     "@dfinity/identity": "^2.1.0",
     "@dfinity/agent": "^2.1.0",
