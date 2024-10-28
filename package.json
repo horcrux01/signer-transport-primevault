@@ -1,5 +1,5 @@
 {
-  "name": "@slide-computer/signer-transport-primevault",
+  "name": "@primevault/signer-transport-primevault",
   "version": "1.0.0",
   "license": "MIT",
   "description": "JavaScript and TypeScript library to communicate with PrimeVault Wallet on the Internet Computer",
